@@ -10,8 +10,8 @@ export const HeaderPage = () => {
         <Tagline>Protegendo a flora do Brasil</Tagline>
       </div>
       <Nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/contact">About Us</NavLink>
+        <NavLink to="/">Página Inicial</NavLink>
+        <NavLink to="/contact">Sobre nós</NavLink>
       </Nav>
       <StyledButton1VARIANT>Junte-se a nós</StyledButton1VARIANT>
     </HeaderContainer>

@@ -12,7 +12,7 @@ export const FooterPage = () => {
 
           <FooterSection>
             <FooterLinks>
-              <FooterLink to="/">Home</FooterLink>
+              <FooterLink to="/">Página Inicial</FooterLink>
               <FooterLink to="/contact">Contato</FooterLink>
             </FooterLinks>
           </FooterSection>

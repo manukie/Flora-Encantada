@@ -1,7 +1,7 @@
 import { HeaderPage } from "../../components/Header";
 import { FooterPage } from "../../components/Footer";
 import { StyledButton1, StyledButton2 } from "../../styles/Buttons";
-import { AboutUsItem, AboutUsSection, LeftSideSection, RightSideSection } from "./styles";
+import { AboutUsItem, AboutUsSection, InformativeSection, LeftSideItem, LeftSideSection, RightSideItem, RightSideSection } from "./styles";
 
 export const Home = () => {
 
@@ -22,28 +22,36 @@ export const Home = () => {
           </AboutUsItem>
         </AboutUsSection>
   
-        <LeftSideSection>
-          <h2>Nossa Missão</h2>
-          <p>A Flora Encantada busca preservar e restaurar ecossistemas brasileiros, promovendo educação ambiental, reflorestamento e apoio a comunidades locais que dependem da natureza para sobreviver.</p>
-        </LeftSideSection>
+        <InformativeSection>
+          <LeftSideSection>
+            <LeftSideItem>
+              <h2>Nossa Missão</h2>
+            </LeftSideItem>
+            <LeftSideItem>
+              <p>A Flora Encantada busca preservar e restaurar ecossistemas brasileiros, promovendo educação ambiental, reflorestamento e apoio a comunidades locais que dependem da natureza para sobreviver.</p>
+            </LeftSideItem>
+          </LeftSideSection>
   
-        <RightSideSection>
-          <h2>Projetos em Destaque</h2>
-          <ul>
-            <li>
-              <h3>Reflorestamento Amazônico</h3>
-              <p>Nosso projeto visa plantar milhares de árvores na Amazônia, restaurando áreas degradadas e protegendo espécies nativas ameaçadas.</p>
-            </li>
-            <li>
-              <h3>Preservação do Cerrado</h3>
-              <p>Trabalhamos para reduzir o desmatamento do Cerrado e incentivar práticas sustentáveis que garantam a sobrevivência desse ecossistema único.</p>
-            </li>
-            <li>
-              <h3>Proteção da Mata Atlântica</h3>
-              <p>Parcerias com comunidades locais e empresas têm ajudado a recuperar trechos da Mata Atlântica, garantindo a preservação da fauna e flora.</p>
-            </li>
-          </ul>
+          <RightSideSection>
+            <RightSideItem>
+            </RightSideItem>
+              <h2>Projetos em Destaque</h2>
+              <ul>
+                <li>
+                  <h3>Reflorestamento Amazônico</h3>
+                  <p>Nosso projeto visa plantar milhares de árvores na Amazônia, restaurando áreas degradadas e protegendo espécies nativas ameaçadas.</p>
+                </li>
+                <li>
+                  <h3>Preservação do Cerrado</h3>
+                  <p>Trabalhamos para reduzir o desmatamento do Cerrado e incentivar práticas sustentáveis que garantam a sobrevivência desse ecossistema único.</p>
+                </li>
+                <li>
+                  <h3>Proteção da Mata Atlântica</h3>
+                  <p>Parcerias com comunidades locais e empresas têm ajudado a recuperar trechos da Mata Atlântica, garantindo a preservação da fauna e flora.</p>
+                </li>
+              </ul>
         </RightSideSection>
+      </InformativeSection>
   
         <section>
           <h2>Como Contribuir</h2>

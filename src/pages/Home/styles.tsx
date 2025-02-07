@@ -25,8 +25,36 @@ export const AboutUsItem = styled.div`
   margin-bottom: 25px; 
 `;
 
+export const InformativeSection = styled.div`
+  display: flex;
+  justify-content: center; 
+  gap: 5%;
+  width: 100%;
+  margin-top: 40px;
+`;
+
 export const LeftSideSection = styled.div`
-`
+  display: block;
+  text-align: center;
+  width: 45%;
+  border: 2px solid #4CAF50; 
+  padding: 40px; 
+  border-radius: 10px; 
+`;
 
 export const RightSideSection = styled.div`
-`
+  display: block;
+  text-align: center;
+  width: 45%; 
+  border: 2px solid #4CAF50; 
+  padding: 40px; 
+  border-radius: 10px; 
+`;
+
+export const LeftSideItem = styled.div`
+  margin-bottom: 20px; 
+`;
+
+export const RightSideItem = styled.div`
+  margin-bottom: 20px;
+`;
