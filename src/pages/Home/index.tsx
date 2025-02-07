@@ -1,6 +1,7 @@
 import { HeaderPage } from "../../components/Header";
 import { FooterPage } from "../../components/Footer";
 import { StyledButton1, StyledButton2 } from "../../styles/Buttons";
+import { AboutUsItem, AboutUsSection, LeftSideSection, RightSideSection } from "./styles";
 
 export const Home = () => {
 
@@ -9,18 +10,24 @@ export const Home = () => {
       <HeaderPage>
       </HeaderPage>
 
-        <section>
-          <h1>Preservando a flora brasileira</h1>
-          <p>A biodiversidade do Brasil é uma das mais ricas do mundo, mas também uma das mais ameaçadas. Nossa missão é conscientizar e promover ações concretas para proteger as riquezas naturais do país.</p>
-          <StyledButton1>Saiba Mais</StyledButton1>
-        </section>
+        <AboutUsSection>
+          <AboutUsItem>
+            <h1>Preservando a flora brasileira</h1>
+          </AboutUsItem>
+          <AboutUsItem>
+            <p>A biodiversidade do Brasil é uma das mais ricas do mundo, mas também uma das mais ameaçadas. Nossa missão é conscientizar e promover ações concretas para proteger as riquezas naturais do país.</p>
+          </AboutUsItem>
+          <AboutUsItem>
+            <StyledButton1>Saiba Mais</StyledButton1>
+          </AboutUsItem>
+        </AboutUsSection>
   
-        <section>
+        <LeftSideSection>
           <h2>Nossa Missão</h2>
           <p>A Flora Encantada busca preservar e restaurar ecossistemas brasileiros, promovendo educação ambiental, reflorestamento e apoio a comunidades locais que dependem da natureza para sobreviver.</p>
-        </section>
+        </LeftSideSection>
   
-        <section>
+        <RightSideSection>
           <h2>Projetos em Destaque</h2>
           <ul>
             <li>
@@ -36,7 +43,7 @@ export const Home = () => {
               <p>Parcerias com comunidades locais e empresas têm ajudado a recuperar trechos da Mata Atlântica, garantindo a preservação da fauna e flora.</p>
             </li>
           </ul>
-        </section>
+        </RightSideSection>
   
         <section>
           <h2>Como Contribuir</h2>

@@ -5,6 +5,7 @@ export const FooterContainer = styled.footer`
   background-color: #2E7D32;
   color: white;
   padding: 10px 10px;
+  margin-top: 30px;
 `;
 
 export const InformationContainer = styled.div`
