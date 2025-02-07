@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                             /* Usar a versão mais recente do JavaScript. */
+    "module": "commonjs",                           /* Utilizar módulos comuns para compatibilidade. */
+    "jsx": "react-jsx",                             /* Definir a transformação JSX do React. */
+    "strict": true,                                 /* Ativar todas as verificações de tipo. */
+    "esModuleInterop": true,                        /* Permitir a interoperabilidade com módulos CommonJS. */
+    "forceConsistentCasingInFileNames": true,       /* Garantir que os nomes de arquivos sejam consistentes. */
+    "skipLibCheck": true,                           /* Ignorar a checagem de bibliotecas. */
+    "outDir": "./dist",                             /* Definir o diretório de saída dos arquivos compilados. */
+    "resolveJsonModule": true,                      /* Permitir a importação de arquivos JSON. */
+    "allowJs": true                                 /* Permitir arquivos JavaScript no projeto. */
+  },
+  "include": ["src/**/*"],                          /* Incluir todos os arquivos .ts e .tsx na pasta src. */
+  "exclude": ["node_modules"]                       /* Excluir a pasta node_modules. */
+}
