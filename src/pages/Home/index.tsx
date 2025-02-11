@@ -1,7 +1,7 @@
 import { HeaderPage } from "../../components/Header";
 import { FooterPage } from "../../components/Footer";
 import { StyledButton1, StyledButton2 } from "../../styles/Buttons";
-import { AboutUsItem, AboutUsSection, InformativeSection, LeftSideItem, LeftSideSection, RightSideItem, RightSideSection } from "./styles";
+import { AboutUsItem, AboutUsSection, InformativeSection, LeftSideItem, LeftSideSection, RightSideItem, RightSideList, RightSideSection } from "./styles";
 
 export const Home = () => {
 
@@ -34,8 +34,9 @@ export const Home = () => {
   
           <RightSideSection>
             <RightSideItem>
+            <h2>Projetos em Destaque</h2>
             </RightSideItem>
-              <h2>Projetos em Destaque</h2>
+            <RightSideList>
               <ul>
                 <li>
                   <h3>Reflorestamento Amazônico</h3>
@@ -50,6 +51,7 @@ export const Home = () => {
                   <p>Parcerias com comunidades locais e empresas têm ajudado a recuperar trechos da Mata Atlântica, garantindo a preservação da fauna e flora.</p>
                 </li>
               </ul>
+            </RightSideList>
         </RightSideSection>
       </InformativeSection>
   

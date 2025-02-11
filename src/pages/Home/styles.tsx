@@ -34,27 +34,48 @@ export const InformativeSection = styled.div`
 `;
 
 export const LeftSideSection = styled.div`
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
   text-align: center;
   width: 45%;
+  min-height: 300px; 
   border: 2px solid #4CAF50; 
   padding: 40px; 
   border-radius: 10px; 
 `;
 
 export const RightSideSection = styled.div`
-  display: block;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
   width: 45%; 
+  min-height: 300px; 
   border: 2px solid #4CAF50; 
   padding: 40px; 
   border-radius: 10px; 
 `;
 
 export const LeftSideItem = styled.div`
-  margin-bottom: 20px; 
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 20px;
 `;
 
 export const RightSideItem = styled.div`
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
   margin-bottom: 20px;
+`;
+
+export const RightSideList = styled.ul`
+  list-style: none;
+  padding: 0;
+  margin: 0; 
 `;
